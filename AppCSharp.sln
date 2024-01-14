@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCSharp", "AppCSharp.cspr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seminar1", "Seminar1", "{5D3449DF-1CED-4BF0-BE88-516F8AA16D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seminar2", "..\Seminar2\Seminar2.csproj", "{2D0D7276-5B27-4DEF-9365-D066A58BF7AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindExit2DLabirinth", "..\Seminar2\FindExit2DLabirinth.csproj", "{2D0D7276-5B27-4DEF-9365-D066A58BF7AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindExit3DLabirinth", "..\FindExit3DLabirinth\FindExit3DLabirinth.csproj", "{F62240DD-E704-46F6-AE96-FA678DD98CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seminar2", "Seminar2", "{779F92A3-03DC-4074-B796-3134BC595947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8F4C8903-BA1D-4605-99BC-135DBADEFEAD} = {5D3449DF-1CED-4BF0-BE88-516F8AA16D9A}
+		{2D0D7276-5B27-4DEF-9365-D066A58BF7AD} = {779F92A3-03DC-4074-B796-3134BC595947}
+		{F62240DD-E704-46F6-AE96-FA678DD98CE8} = {779F92A3-03DC-4074-B796-3134BC595947}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8FBE024-39F1-4DC4-BE9C-8FD492E5052D}
