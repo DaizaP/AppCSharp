@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,12 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Seminar1\Presenter\**" />
-    <Compile Remove="Seminar1\View\**" />
-    <EmbeddedResource Remove="Seminar1\Presenter\**" />
-    <EmbeddedResource Remove="Seminar1\View\**" />
-    <None Remove="Seminar1\Presenter\**" />
-    <None Remove="Seminar1\View\**" />
+    <Compile Remove="Seminar1\**" />
+    <EmbeddedResource Remove="Seminar1\**" />
+    <None Remove="Seminar1\**" />
   </ItemGroup>
 
 </Project>

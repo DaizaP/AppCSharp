@@ -1,4 +1,4 @@
-﻿namespace AppCSharp.Seminar1
+﻿namespace AppCSharp
 {
     enum Gender { Male, Female }
     class FamilyMember

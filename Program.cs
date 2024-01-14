@@ -1,4 +1,4 @@
-﻿using AppCSharp.Seminar1;
+﻿using AppCSharp;
 
 internal class Program
 {
